@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL" rel="self" type="application/atom+xml" />
+  <title>Eurostat - Custom RSS Feed</title>
+  <link rel="alternate" href="https://ec.europa.eu/eurostat" />
+  <link rel="next" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL&amp;pageNumber=2" />
+  <link rel="last" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL&amp;pageNumber=142" />
+  <link rel="related" href="https://ec.europa.eu/eurostat/web/rss/about-rss" />
+  <subtitle>This feed has been created based on your search query. For more information, please consult the related help page.</subtitle>
+  <id>https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL</id>
+  <updated>2025-02-03T10:00:00Z</updated>
+  <entry>
+    <title>Euro area annual inflation up to 2.5%</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-03022025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-03022025-ap</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Euro area annual inflation is expected to be 2.5% in January 2025, up from 2.4% in December 2024 according to a flash estimate from Eurostat, the statistical office of the European Union.</summary>
+  </entry>
+  <entry>
+    <title>GDP stable in the euro area and up by 0.1% in the EU</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-30012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-30012025-ap</id>
+    <updated>2025-01-30T10:00:00Z</updated>
+    <published>2025-01-30T10:00:00Z</published>
+    <summary type="html">In the fourth quarter of 2024, seasonally adjusted GDP remained stable in the euro area and increased by 0.1% in the EU, compared with the previous quarter, according to a preliminary flash estimate published by Eurostat, the statistical office of the European Union. In the third quarter of 2024, GD...</summary>
+  </entry>
+  <entry>
+    <title>Household real consumption per capita increases in both euro area and EU</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-28012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-28012025-ap</id>
+    <updated>2025-01-28T10:00:00Z</updated>
+    <published>2025-01-28T10:00:00Z</published>
+    <summary type="html">In the third quarter of 2024, household real consumption per capita increased by 0.8% in the euro area, after an increase of 0.1% in the previous quarter. Household real income per capita increased in the third quarter of 2024 by 0.4%, after an increase of 0.3% in the second quarter of 2024.</summary>
+  </entry>
+  <entry>
+    <title>Government debt at 88.2% of GDP in euro area</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-22012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-22012025-ap</id>
+    <updated>2025-01-22T10:00:00Z</updated>
+    <published>2025-01-22T10:00:00Z</published>
+    <summary type="html">At the end of the third quarter of 2024, the general government gross debt to GDP ratio in the euro area (EA20) stood at 88.2% and remained unchanged compared to the end of the second quarter of 2024. In the EU, the ratio also remained unchanged and stood at 81.6%.</summary>
+  </entry>
+  <entry>
+    <title>Seasonally adjusted government deficit at 2.6% of GDP in the euro area and 2.9% in the EU</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-22012025-bp" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-22012025-bp</id>
+    <updated>2025-01-22T10:00:00Z</updated>
+    <published>2025-01-22T10:00:00Z</published>
+    <summary type="html">In the third quarter of 2024, the seasonally adjusted general government deficit to GDP ratio stood at 2.6% in the euro area (EA20) and 2.9% in the EU. In the third quarter of 2024, the euro area and EU deficit to GDP ratio decreased compared to the second quarter of 2024.</summary>
+  </entry>
+  <entry>
+    <title>Annual inflation up to 2.4% in the euro area</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-17012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-17012025-ap</id>
+    <updated>2025-01-17T10:00:00Z</updated>
+    <published>2025-01-17T10:00:00Z</published>
+    <summary type="html">The euro area annual inflation rate was 2.4% in December 2024, up from 2.2% in November. A year earlier, the rate was 2.9%. European Union annual inflation was 2.7% in December 2024, up from 2.5% in November. A year earlier, the rate was 3.4%. These figures are published by Eurostat, the statistical...</summary>
+  </entry>
+  <entry>
+    <title>Household saving rate down to 15.3% in the euro area</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-13012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-13012025-ap</id>
+    <updated>2025-01-13T10:00:00Z</updated>
+    <published>2025-01-13T10:00:00Z</published>
+    <summary type="html">The household saving rate in the euro area was at 15.3% in the third quarter of 2024 (compared with 15.6% in the second quarter of 2024), which is explained by consumption increasing by 1.1%, at a faster rate than gross disposable income (+0.7%).</summary>
+  </entry>
+  <entry>
+    <title>EU current account surplus €106.0 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-13012025-bp" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-13012025-bp</id>
+    <updated>2025-01-13T10:00:00Z</updated>
+    <published>2025-01-13T10:00:00Z</published>
+    <summary type="html">In the third quarter of 2024, the EU seasonally adjusted current account of the balance of payments recorded a surplus of €106.0 billion (+2.4% of GDP), compared with a surplus of €136.2 billion (+3.1% of GDP) in the second quarter of 2024 and a surplus of €99.4 billion (+2.3% of GDP) in the third q...</summary>
+  </entry>
+  <entry>
+    <title>House prices up by 2.6% in the euro area</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-10012025-bp" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-10012025-bp</id>
+    <updated>2025-01-10T10:00:00Z</updated>
+    <published>2025-01-10T10:00:00Z</published>
+    <summary type="html">In the third quarter of 2024, house prices, as measured by the House Price Index, increased by 2.6% in the euro area and by 3.8% in the EU compared with the same quarter of the previous year. In the second quarter of 2024, house prices increased by 1.4% and 3.0% in the euro area and EU, respectively...</summary>
+  </entry>
+  <entry>
+    <title>Euro area annual inflation up to 2.4%</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-07012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-07012025-ap</id>
+    <updated>2025-01-07T10:00:00Z</updated>
+    <published>2025-01-07T10:00:00Z</published>
+    <summary type="html">Euro area annual inflation is expected to be 2.4% in December 2024, up from 2.2% in November according to a flash estimate from Eurostat, the statistical office of the European Union.</summary>
+  </entry>
+  <entry>
+    <title>Annual inflation up to 2.2% in the euro area</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=2-18122024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=2-18122024-ap</id>
+    <updated>2024-12-18T10:00:00Z</updated>
+    <published>2024-12-18T10:00:00Z</published>
+    <summary type="html">The euro area annual inflation rate was 2.2% in November 2024, up from 2.0% in October. A year earlier, the rate was 2.4%. European Union annual inflation was 2.5% in November 2024, up from 2.3% in October. A year earlier, the rate was 3.1%. These figures are published by Eurostat, the statistical o...</summary>
+  </entry>
+</feed>

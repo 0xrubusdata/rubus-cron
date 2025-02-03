@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW" rel="self" type="application/atom+xml" />
+  <title>Eurostat - Custom RSS Feed</title>
+  <link rel="alternate" href="https://ec.europa.eu/eurostat" />
+  <link rel="next" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW&amp;pageNumber=2" />
+  <link rel="last" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW&amp;pageNumber=23" />
+  <link rel="related" href="https://ec.europa.eu/eurostat/web/rss/about-rss" />
+  <subtitle>This feed has been created based on your search query. For more information, please consult the related help page.</subtitle>
+  <id>https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW</id>
+  <updated>2025-01-24T10:00:00Z</updated>
+  <entry>
+    <title>More internet users turn to online learning in 2024</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20250124-1" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20250124-1</id>
+    <updated>2025-01-24T10:00:00Z</updated>
+    <published>2025-01-24T10:00:00Z</published>
+    <summary type="html">In 2024, 33% of EU internet users reported that they had done an online course or used online learning material in the 3 months prior to the survey. This is a 3 percentage point (pp) increase compared with 2023 (30%).
+ Ireland recorded the highest share of internet users engaged in online learning (...</summary>
+  </entry>
+  <entry>
+    <title>Usage of AI technologies increasing in EU enterprises</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20250123-3" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20250123-3</id>
+    <updated>2025-01-23T10:00:00Z</updated>
+    <published>2025-01-23T10:00:00Z</published>
+    <summary type="html">In 2024, 13.5% of enterprises in the EU with 10 or more employees used artificial intelligence (AI) technologies to conduct their business, indicating a 5.5 percentage points (pp) growth from 8.0% in 2023.
+ The highest shares of these enterprises were in Denmark (27.6%), Sweden (25.1%) and Belgium (...</summary>
+  </entry>
+  <entry>
+    <title>People online in 2024</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20241217-1" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20241217-1</id>
+    <updated>2024-12-17T10:00:00Z</updated>
+    <published>2024-12-17T10:00:00Z</published>
+    <summary type="html">In 2024, 93% of people aged 16-74 in the EU reported that they had used the internet during the previous 3 months. Internet use has grown consistently in the EU, with the share of users increasing by 7 percentage points (pp), up from 86% in 2019.
+ The internet was used mainly to communicate with oth...</summary>
+  </entry>
+  <entry>
+    <title>93% of EU businesses apply ICT security measures</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20241212-1" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20241212-1</id>
+    <updated>2024-12-12T10:00:00Z</updated>
+    <published>2024-12-12T10:00:00Z</published>
+    <summary type="html">In 2024, 93% of EU enterprises applied at least 1 measure to ensure integrity, availability and confidentiality of their data and ICT systems.  
+ This information comes from data on ICT usage and e-commerce in enterprises published by Eurostat today. The article presents a handful of findings from t...</summary>
+  </entry>
+  <entry>
+    <title>EU spent €381.4 billion on R&amp;D in 2023</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20241211-2" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20241211-2</id>
+    <updated>2024-12-11T10:00:00Z</updated>
+    <published>2024-12-11T10:00:00Z</published>
+    <summary type="html">In 2023, the EU spent €381.4 billion on research &amp; development (R&amp;D), which is 6.7% more than in the previous year (€357.4 billion) and 57.9% more than in 2013 (€241.5 billion).
+ R&amp;D intensity, defined as R&amp;D expenditure as a percentage of GDP, remained stable compared with 2022 (2.2%). Between 2013...</summary>
+  </entry>
+  <entry>
+    <title>New dashboard tracks EU’s digital transformation</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=wdn-20241205-1" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=wdn-20241205-1</id>
+    <updated>2024-12-05T10:00:00Z</updated>
+    <published>2024-12-05T10:00:00Z</published>
+    <summary type="html">Eurostat has released the Digitalisation dashboard, offering a dynamic, easy to use interface to track and analyse key indicators related to digital transformation. 
+ The dashboard presents a selection of indicators showing the EU’s digital transformation in 4 key areas:
+ 	businesses;
+	digital skill...</summary>
+  </entry>
+  <entry>
+    <title>In which EU regions is online shopping most popular?</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20241129-2" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20241129-2</id>
+    <updated>2024-11-29T10:00:00Z</updated>
+    <published>2024-11-29T10:00:00Z</published>
+    <summary type="html">In 2023, 58.1% of people aged 16-74 in the EU reported that they had bought or ordered goods or services over the internet in the 3 months preceding the survey. 
+ The share was higher than the EU average (58.1%) for every region (at level 2 of the nomenclature of territorial units for statistics (NU...</summary>
+  </entry>
+  <entry>
+    <title>How do people interact with public authorities online?</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20240924-2" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20240924-2</id>
+    <updated>2024-09-24T09:00:00Z</updated>
+    <published>2024-09-24T09:00:00Z</published>
+    <summary type="html">In 2023, 69% of EU citizens aged 16-74 have used a website or an app of a public authority in the preceding 12 months. 
+ The share varied greatly among EU countries, with highest shares recorded in Denmark (98%), Finland, the Netherlands and Sweden (all 95%). In contrast, the lowest shares were reco...</summary>
+  </entry>
+  <entry>
+    <title>How digitalised have the EU’s enterprises become?</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20240829-1" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20240829-1</id>
+    <updated>2024-08-29T09:00:00Z</updated>
+    <published>2024-08-29T09:00:00Z</published>
+    <summary type="html">In 2023, 59% of EU enterprises reached at least basic level of digital intensity. Of the small and medium-sized enterprises (SMEs), 58% reached at least basic level of digital intensity last year, while the share for large enterprises was 91%.
+ ‘At least basic level of digital intensity’ - measured ...</summary>
+  </entry>
+  <entry>
+    <title>EU governments increased R&amp;D allocations by 5% in 2023</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20240806-1" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20240806-1</id>
+    <updated>2024-08-06T09:00:00Z</updated>
+    <published>2024-08-06T09:00:00Z</published>
+    <summary type="html">In 2023, the total government budget allocations for R&amp;D (GBARD) across the EU stood at €123 684 million, equivalent to 0.73% of GDP. This was a 5.3% increase compared with 2022 (€117 424 million) and a 54.8% increase compared with 2013 (€79 886 million).
+ This information comes from data on governm...</summary>
+  </entry>
+  <entry>
+    <title>Women make up 52% of science &amp; technology employment</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=ddn-20240613-2" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=ddn-20240613-2</id>
+    <updated>2024-06-13T09:00:00Z</updated>
+    <published>2024-06-13T09:00:00Z</published>
+    <summary type="html">In 2023, 78.3 million people in the EU aged 15 to 74 were employed in science and technology, indicating a 2.9% increase compared with 2022. When looking at 2013, data show a substantial rise of 25% in the last decade (62.5 million people). Science and technology occupations comprise those whose mai...</summary>
+  </entry>
+</feed>
