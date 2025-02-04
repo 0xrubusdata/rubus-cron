@@ -1,99 +1,103 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# 🌿 Rubus-Cron
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+**Rubus-Cron** is a Node.js microservice built with **NestJS** that periodically fetches economic and IT-related data from multiple sources (EU Parliament, Eurostat, Federal Reserve, US-BEA) and stores them in a PostgreSQL database.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+The project is designed to:
+- 🔄 **Collect** data from APIs and RSS feeds.
+- 🏗 **Normalize** and transform the data into a unified format.
+- 🧠 **Provide AI agents** with structured historical data for context-based analysis.
+- 🕰 **Run on a cron job**, ensuring the database is always up-to-date.
 
-## Description
+## 🚀 Features
+- **Automated Data Collection** 📡 (via API & RSS fetchers)
+- **Scheduled Execution** ⏳ (via cron jobs)
+- **Data Normalization & Storage** 🗃️ (via PostgreSQL)
+- **Modular & Scalable Architecture** 🏗️ (NestJS & Docker)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 📦 Tech Stack
+- **Backend:** [NestJS](https://nestjs.com/) (TypeScript)
+- **Database:** [PostgreSQL](https://www.postgresql.org/)
+- **Task Scheduling:** [@nestjs/schedule](https://docs.nestjs.com/techniques/task-scheduling)
+- **Containerization:** [Docker](https://www.docker.com/) & [Docker Compose](https://docs.docker.com/compose/)
+- **ORM:** [TypeORM](https://typeorm.io/)
 
-## Project setup
+---
 
-```bash
-$ npm install
+## ⚙️ **Installation & Setup**
+
+### **1️⃣ Clone the repository**
+```sh
+git clone https://github.com/YOUR_GITHUB_USERNAME/rubus-cron.git
+cd rubus-cron
 ```
-
-## Compile and run the project
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+### **2️⃣ Install dependencies**
+```sh
+npm install
 ```
+### **3️⃣ Configure environment variables**
+Create a .env file at the project root:
 
-## Run tests
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```sh
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=password
+POSTGRES_DB=rubus
 ```
-
-## Deployment
-
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
-
-```bash
-$ npm install -g mau
-$ mau deploy
+### **4️⃣ Run with Docker**
+```sh
+docker-compose up --build
 ```
+### **5️⃣ Access the application**
+- API runs on http://localhost:3000
+- PostgreSQL database is available on port 5432
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+## 📡 **Data Fetchers**
 
-## Resources
+Rubus-Cron integrates multiple data sources:
 
-Check out a few resources that may come in handy when working with NestJS:
+    European Union:
+        EU Parliament RSS Feeds
+        Eurostat API
+    United States:
+        Federal Reserve RSS Feeds
+        US Bureau of Economic Analysis (BEA) API
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+Each data fetcher is modular and located in src/data-fetchers/.
 
-## Support
+## 🛠 **Project Structure**
+```sh
+rubus-cron/
+ ├── src/
+ │   ├── app.module.ts          # Main NestJS module
+ │   ├── main.ts                # App entry point
+ │   ├── config/                # Environment configuration
+ │   ├── cron/                  # Scheduled jobs (cron)
+ │   ├── database/              # PostgreSQL integration
+ │   ├── data-fetchers/         # API & RSS fetchers
+ ├── .env                       # Environment variables (not committed)
+ ├── .gitignore                 # Ignore unnecessary files
+ ├── Dockerfile                 # Docker container setup
+ ├── docker-compose.yml         # Multi-container setup (app + PostgreSQL)
+ ├── package.json               # Project dependencies
+ ├── README.md                  # You are here
+```
+## 🛠 **Contributing**
+- Fork the repo
+- Clone your fork
+- Create a new feature branch
+- Commit & push your changes
+- Create a Pull Request
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## 📝 **License**
+This project is licensed under the MIT License.
 
-## Stay in touch
+## ✨ **Future Enhancements**
+- 🧠 AI Integration: Feed the collected data into LLMs (ChatGPT, LLaMA).
+- 🔍 Memory Vectorization: Store key insights for long-term AI context.
+- 📊 Visualization: Create dashboards for economic & IT trends.
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+## 📝 **Author**
+- 👤 0xRubusData
+- 📧 Contact: 0xRubusData@gmail.com
+- 🌍 GitHub: https://github.com/0xrubusdata/rubus-cron
