@@ -98,6 +98,12 @@ This project is licensed under the MIT License.
 - 📊 Visualization: Create dashboards for economic & IT trends.
 
 ## 📝 **Author**
-- 👤 0xRubusData
+- 👤 0xRubusData 
 - 📧 Contact: 0xRubusData@gmail.com
 - 🌍 GitHub: https://github.com/0xrubusdata/rubus-cron
+
+## 🌐 Connect with Us
+- **Twitter (X)**: [0xRubusData](https://x.com/Data0x88850)
+- **Website**: [RubusData](https://simple-agent-website.vercel.app/)
+
+## 🎯 **Happy Coding!** 🚀
