@@ -1,10 +1,11 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PostgresService } from './postgres.service';
-import { Europarl } from './entities/europarl.entity';
-import { UsBea } from './entities/usBea.entity';
-import { FederalReserve } from './entities/federalreserve.entity';
-import { Eurostat } from './entities/eurostat.entity';
+import { Europarl } from '../entities/europarl.entity';
+import { UsBea } from '../entities/usBea.entity';
+import { FederalReserve } from '../entities/federalreserve.entity';
+import { Eurostat } from '../entities/eurostat.entity';
+import { ContentMetadata } from '../entities/contentMetadata.entity';
 
 @Module({
   imports: [
@@ -18,7 +19,7 @@ import { Eurostat } from './entities/eurostat.entity';
       autoLoadEntities: true,
       synchronize: true,
     }),
-    TypeOrmModule.forFeature([Europarl, Eurostat, FederalReserve, UsBea]), // Intégration des entités
+    TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, UsBea]), // Intégration des entités
   ],
   providers: [PostgresService],
   exports: [PostgresService, TypeOrmModule],

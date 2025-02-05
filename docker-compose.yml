@@ -13,7 +13,7 @@ services:
 
   db:
     image: postgres:15
-    container_name: rubus_postgres
+    container_name: ${POSTGRES_HOST}
     restart: always
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -23,6 +23,7 @@ services:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
 
 volumes:
   pgdata:
