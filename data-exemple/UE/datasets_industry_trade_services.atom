@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset" rel="self" type="application/atom+xml" />
+  <title>Eurostat - Custom RSS Feed</title>
+  <link rel="alternate" href="https://ec.europa.eu/eurostat" />
+  <link rel="next" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset&amp;pageNumber=2" />
+  <link rel="last" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset&amp;pageNumber=51" />
+  <link rel="related" href="https://ec.europa.eu/eurostat/web/rss/about-rss" />
+  <subtitle>This feed has been created based on your search query. For more information, please consult the related help page.</subtitle>
+  <id>https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset</id>
+  <updated>2025-02-01T10:00:00Z</updated>
+  <entry>
+    <title>Building permits - annual data</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/tipsho50" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/tipsho50</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">&lt;p&gt;The annual building permits data are business cycle indicators providing information on the development of granted building permits in one year. Builders apply for building permits and local building administrations issue them normally before the beginning of the construction work. Therefore buil...</summary>
+  </entry>
+  <entry>
+    <title>Production in services</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis715" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis715</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">&lt;p&gt;The index of services production is a business indicator that measures the monthly changes in the production volume of the services industries (excluding financial and public services). Seasonally adjusted euro area and EU series are calculated by aggregating the seasonally adjusted national data...</summary>
+  </entry>
+  <entry>
+    <title>Building permits - monthly data</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis550" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis550</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The objective of the building permit index is to show the future development of construction activity in terms of per square meter of useful floor. The current base year is 2021 (Index 2021 = 100). The index is presented in seasonally adjusted form. Growth rates with respect to the previous month (M...</summary>
+  </entry>
+  <entry>
+    <title>Production in construction</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis500" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis500</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The production in construction shows the output and activity of the construction sector. It measures changes in the volume of output on a monthly basis. Construction includes building construction and civil engineering. The construction sector in total corresponds to the NACE Rev. 2 section F. Produ...</summary>
+  </entry>
+  <entry>
+    <title>Labour input - total industry (excluding construction)</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis400" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis400</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">This table presents 3 indexes showing the development of labour input in the sector of industry (excluding construction): Number of persons employed, the hours worked and the wages and salaries. The number of person employed shows the development of employment in Industry. It can be defined as the t...</summary>
+  </entry>
+  <entry>
+    <title>Retail trade volume of sales - automotive fuel</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis270" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis270</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The Retail Trade Index is a business cycle indicator which shows the monthly activity of the retail sector in value and volume. It is a short-term indicator for final domestic demand. It should be noted that the volume of sales is different from the volume of (retail) trade services. The latter take...</summary>
+  </entry>
+  <entry>
+    <title>Retail trade volume of sales - non food</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis260" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis260</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The Retail Trade Index is a business cycle indicator which shows the monthly activity of the retail sector in value and volume. It is a short-term indicator for final domestic demand. It should be noted that the volume of sales is different from the volume of (retail) trade services. The latter take...</summary>
+  </entry>
+  <entry>
+    <title>Retail trade volume of sales - food, beverages and tobacco</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis250" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis250</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The Retail Trade Index is a business cycle indicator which shows the monthly activity of the retail sector in value and volume. It is a short-term indicator for final domestic demand. It should be noted that the volume of sales is different from the volume of (retail) trade services. The latter take...</summary>
+  </entry>
+  <entry>
+    <title>Retail trade volume of sales - total</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis240" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis240</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The Retail Trade Index is a business cycle indicator which shows the monthly activity of the retail sector in value and volume. It is a short-term indicator for final domestic demand. It should be noted that the volume of sales is different from the volume of (retail) trade services. The latter take...</summary>
+  </entry>
+  <entry>
+    <title>Retail trade turnover - automotive fuel</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis230" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis230</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The Retail Trade Index is a business cycle indicator which shows the monthly activity of the retail sector in value and volume. It is a short-term indicator for final domestic demand. It should be noted that the volume of sales is different from the volume of (retail) trade services. The latter take...</summary>
+  </entry>
+  <entry>
+    <title>Retail trade turnover - non food</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teiis220" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teiis220</id>
+    <updated>2025-02-01T10:00:00Z</updated>
+    <published>2025-02-01T10:00:00Z</published>
+    <summary type="html">The Retail Trade Index is a business cycle indicator which shows the monthly activity of the retail sector in value and volume. It is a short-term indicator for final domestic demand. It should be noted that the volume of sales is different from the volume of (retail) trade services. The latter take...</summary>
+  </entry>
+</feed>

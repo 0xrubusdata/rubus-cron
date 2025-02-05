@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL" rel="self" type="application/atom+xml" />
+  <title>Eurostat - Custom RSS Feed</title>
+  <link rel="alternate" href="https://ec.europa.eu/eurostat" />
+  <link rel="next" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL&amp;pageNumber=2" />
+  <link rel="last" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL&amp;pageNumber=35" />
+  <link rel="related" href="https://ec.europa.eu/eurostat/web/rss/about-rss" />
+  <subtitle>This feed has been created based on your search query. For more information, please consult the related help page.</subtitle>
+  <id>https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL</id>
+  <updated>2025-01-16T10:00:00Z</updated>
+  <entry>
+    <title>Euro area international trade in goods surplus €16.4 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-16012025-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-16012025-ap</id>
+    <updated>2025-01-16T10:00:00Z</updated>
+    <published>2025-01-16T10:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €16.4 bn surplus in trade in goods with the rest of the world in November 2024, compared with + €18.2 bn in November 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €6.8 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-17122024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-17122024-ap</id>
+    <updated>2024-12-17T10:00:00Z</updated>
+    <published>2024-12-17T10:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €6.8 bn surplus in trade in goods with the rest of the world in October 2024, compared with + €9.4 bn in October 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €12.5 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-18112024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-18112024-ap</id>
+    <updated>2024-11-18T10:00:00Z</updated>
+    <published>2024-11-18T10:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €12.5 bn surplus in trade in goods with the rest of the world in September 2024, compared with + €9.8 bn in September 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €4.6 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-17102024-bp" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-17102024-bp</id>
+    <updated>2024-10-17T09:00:00Z</updated>
+    <published>2024-10-17T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €4.6 bn surplus in trade in goods with the rest of the world in August 2024, compared with €4.8 bn in August 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €21.2 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-16092024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-16092024-ap</id>
+    <updated>2024-09-16T09:00:00Z</updated>
+    <published>2024-09-16T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €21.2 bn surplus in trade in goods with the rest of the world in July 2024, compared with €6.7 bn in July 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €22.3 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-16082024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-16082024-ap</id>
+    <updated>2024-08-16T09:00:00Z</updated>
+    <published>2024-08-16T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €22.3 bn surplus in trade in goods with the rest of the world in June 2024, compared with €18.0 bn in June 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €13.9 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-16072024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-16072024-ap</id>
+    <updated>2024-07-16T09:00:00Z</updated>
+    <published>2024-07-16T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €13.9 bn surplus in trade in goods with the rest of the world in May 2024, compared with a deficit of €0.4 bn in May 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €15.0 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-14062024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-14062024-ap</id>
+    <updated>2024-06-14T09:00:00Z</updated>
+    <published>2024-06-14T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €15.0 bn surplus in trade in goods with the rest of the world in April 2024, compared with a deficit of €11.1 bn in April 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €24.1 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-21052024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-21052024-ap</id>
+    <updated>2024-05-21T09:00:00Z</updated>
+    <published>2024-05-21T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €24.1 bn surplus in trade in goods with the rest of the world in March 2024, compared with +€19.1 bn in March 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €23.6 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-16042024-ap" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-16042024-ap</id>
+    <updated>2024-04-16T09:00:00Z</updated>
+    <published>2024-04-16T09:00:00Z</published>
+    <summary type="html">The first estimates of euro area balance showed a €23.6 bn surplus in trade in goods with the rest of the world in February 2024, compared with +€3.6 bn in February 2023.</summary>
+  </entry>
+  <entry>
+    <title>Euro area international trade in goods surplus €11.4 bn</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/product?code=6-18032024-bp" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/product?code=6-18032024-bp</id>
+    <updated>2024-03-18T10:00:00Z</updated>
+    <published>2024-03-18T10:00:00Z</published>
+    <summary type="html">The first estimates of euro area showed a €11.4 bn surplus in trade in goods with the rest of the world in January 2024, compared with a deficit of €32.6 bn in January 2023.</summary>
+  </entry>
+</feed>

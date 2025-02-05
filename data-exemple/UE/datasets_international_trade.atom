@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset" rel="self" type="application/atom+xml" />
+  <title>Eurostat - Custom RSS Feed</title>
+  <link rel="alternate" href="https://ec.europa.eu/eurostat" />
+  <link rel="next" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset&amp;pageNumber=2" />
+  <link rel="last" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset&amp;pageNumber=7" />
+  <link rel="related" href="https://ec.europa.eu/eurostat/web/rss/about-rss" />
+  <subtitle>This feed has been created based on your search query. For more information, please consult the related help page.</subtitle>
+  <id>https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset</id>
+  <updated>2025-01-30T22:00:00Z</updated>
+  <entry>
+    <title>Net trade balance of energy products - % of GDP</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/tipsen10" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/tipsen10</id>
+    <updated>2025-01-30T22:00:00Z</updated>
+    <published>2025-01-30T22:00:00Z</published>
+    <summary type="html">&lt;p&gt;The trade balance of energy products is calculated, for each Member State, as the difference between exports and imports from the rest of the world (intra-EU and extra-EU trade) of goods included in the SITC section 3 - Mineral fuels, lubricants and related materials.The MIP indicator is expresse...</summary>
+  </entry>
+  <entry>
+    <title>Trade by partner country and enterprise size class</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec10" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec10</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by NACE Rev. 2 activity sector</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec09" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec09</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by exports intensity</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec08" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec08</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by type of ownership</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec07" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec07</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by type of trader</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec06" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec06</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by commodity and NACE Rev. 2 activity</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec05" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec05</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by number of partner countries and NACE Rev. 2 activity</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec04" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec04</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by partner country and NACE Rev. 2 activity</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec03" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec03</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Concentration of trade by NACE Rev. 2 activity</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec02" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec02</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+  <entry>
+    <title>Trade by NACE Rev. 2 activity and enterprise size class</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec01" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/ext_tec01</id>
+    <updated>2025-01-29T22:00:00Z</updated>
+    <published>2025-01-29T22:00:00Z</published>
+    <summary type="html" />
+  </entry>
+</feed>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset" rel="self" type="application/atom+xml" />
+  <title>Eurostat - Custom RSS Feed</title>
+  <link rel="alternate" href="https://ec.europa.eu/eurostat" />
+  <link rel="next" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset&amp;pageNumber=2" />
+  <link rel="last" href="https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset&amp;pageNumber=37" />
+  <link rel="related" href="https://ec.europa.eu/eurostat/web/rss/about-rss" />
+  <subtitle>This feed has been created based on your search query. For more information, please consult the related help page.</subtitle>
+  <id>https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&amp;p_p_lifecycle=2&amp;p_p_state=maximized&amp;p_p_mode=view&amp;p_p_resource_id=atom&amp;_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&amp;_estatsearchportlet_WAR_estatsearchportlet_collection=dataset</id>
+  <updated>2025-02-03T10:00:00Z</updated>
+  <entry>
+    <title>HICP - non-energy industrial goods</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp290" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp290</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - services</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp280" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp280</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - food, alcohol and tobacco</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp260" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp260</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - energy</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp250" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp250</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - all items excluding tobacco</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp240" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp240</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - all items excluding energy and seasonal food</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp230" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp230</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - all items excluding energy and unprocessed food</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp220" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp220</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - all items excluding energy</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp210" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp210</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - all items excluding energy, food, alcohol and tobacco</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp200" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp200</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - miscellaneous goods and services</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp120" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp120</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+  <entry>
+    <title>HICP - hotels and restaurants</title>
+    <link rel="alternate" href="https://ec.europa.eu/eurostat/web/products-datasets/-/teicp110" />
+    <author>
+      <name>Eurostat</name>
+      <uri>http://ec.europa.eu/eurostat</uri>
+    </author>
+    <id>https://ec.europa.eu/eurostat/web/products-datasets/-/teicp110</id>
+    <updated>2025-02-03T10:00:00Z</updated>
+    <published>2025-02-03T10:00:00Z</published>
+    <summary type="html">Harmonised Indices of Consumer Prices (HICP) are designed for international comparisons of consumer price inflation. HICPs are used for the assessment of the inflation convergence criterion as required under Article 121 of the Treaty of Amsterdam and by the ECB for assessing price stability for mone...</summary>
+  </entry>
+</feed>
