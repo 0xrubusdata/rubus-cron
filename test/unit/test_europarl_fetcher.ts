@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './src/app.module';
-import { ContentMetadataService } from './src/services/contentMetadata.service';
-import { EuroparlFetcher } from './src/data-fetchers/europarlFetcher';
+import { AppModule } from '../../src/app.module';
+import { EuroparlFetcher } from '../../src/data-fetchers/europarlFetcher';
+import { ContentMetadataService } from '../../src/services/contentMetadata.service';
 
 async function test() {
   const app = await NestFactory.createApplicationContext(AppModule);

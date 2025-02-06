@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './src/app.module';
-import { DataIngestionService } from './src/ingestion/dataIngestion.service';
+import { AppModule } from '../../src/app.module';
+import { DataIngestionService } from '../../src/ingestion/dataIngestion.service';
 
 async function test() {
   const app = await NestFactory.createApplicationContext(AppModule);

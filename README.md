@@ -82,6 +82,26 @@ rubus-cron/
  ├── package.json               # Project dependencies
  ├── README.md                  # You are here
 ```
+
+## 🚀 Running Tests
+
+### 🔹 Run unit tests (fetchers & transformers)
+```sh
+npm run test:unit
+```
+### 🔹 Run functional tests (full ingestion flow)
+```sh
+npm npm run test:functional
+```
+### 🔹 Run integration tests (database persistence)
+```sh
+npm run test:integration
+```
+### 🔹 Run all tests
+```sh
+npm run test:all
+```
+
 ## 🛠 **Contributing**
 - Fork the repo
 - Clone your fork
