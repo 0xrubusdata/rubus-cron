@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Eurostat } from '../entities/eurostat.entity';
-import { EurostatRepository } from 'src/repository/eurostat.repository';
+import { EurostatRepository } from '../repository/eurostat.repository';
 
 @Injectable()
 export class EurostatService {

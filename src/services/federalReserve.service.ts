@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { FederalReserve } from '../entities/federalreserve.entity';
-import { FederalReserveRepository } from 'src/repository/federalReserve.repository';
+import { FederalReserveRepository } from '../repository/federalReserve.repository';
 
 @Injectable()
 export class FederalReserveService {

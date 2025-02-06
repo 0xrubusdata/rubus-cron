@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { UsBea } from '../entities/usBea.entity';
-import { UsBeaRepository } from 'src/repository/usBea.repository';
+import { UsBeaRepository } from '../repository/usBea.repository';
 
 @Injectable()
 export class UsBeaService {

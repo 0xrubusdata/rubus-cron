@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Europarl } from '../entities/europarl.entity';
-import { EuroparlRepository } from 'src/repository/europarl.repository';
+import { EuroparlRepository } from '../repository/europarl.repository';
 
 @Injectable()
 export class EuroparlService {
