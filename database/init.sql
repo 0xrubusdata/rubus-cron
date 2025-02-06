@@ -2,7 +2,7 @@
 DROP TABLE IF EXISTS content_metadata CASCADE;
 DROP TABLE IF EXISTS europarl CASCADE;
 DROP TABLE IF EXISTS eurostat CASCADE;
-DROP TABLE IF EXISTS federalreserve CASCADE;
+DROP TABLE IF EXISTS federal_reserve CASCADE;
 DROP TABLE IF EXISTS us_bea CASCADE;
 
 
@@ -12,7 +12,7 @@ CREATE TABLE content_metadata (
     source  VARCHAR(50) NOT NULL,       -- "europarl", "eurostat", etc.
     content_type VARCHAR(50) NOT NULL,  -- "NEWS", "Committees", etc.
     content_name TEXT NOT NULL,         -- Detailed name of the content
-    url VARCHAR(255) NOT NULL           -- Content URL
+    url VARCHAR(510) NOT NULL           -- Content URL
 );
 
 -- EUROPARL NEWS
@@ -35,7 +35,26 @@ INSERT INTO content_metadata (id, region, source, content_type, content_name, ur
 INSERT INTO content_metadata (id, region, source, content_type, content_name, url) VALUES
 (11, 'UE', 'europarl', 'DELEGATION', 'delegation_usa', 'https://www.europarl.europa.eu/rss/delegation/d-us/en.xml');
 
+-- EUROSTAT NEWS RELEASES
+INSERT INTO content_metadata (id, region, source, content_type, content_name, url) VALUES
+(12, 'UE', 'eurostat', 'NEWS_RELEASES', 'news_releases_economy_finance', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL'),
+(13, 'UE', 'eurostat', 'NEWS_RELEASES', 'news_releases_industry_trade_services', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL'),
+(14, 'UE', 'eurostat', 'NEWS_RELEASES', 'news_releases_international_trade', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL'),
+(15, 'UE', 'eurostat', 'NEWS_RELEASES', 'news_releases_science_technology', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_PREREL');
 
+-- EUROSTAT NEWS
+INSERT INTO content_metadata (id, region, source, content_type, content_name, url) VALUES
+(16, 'UE', 'eurostat', 'NEWS', 'eurostat_news_economy_finance', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW'),
+(17, 'UE', 'eurostat', 'NEWS', 'eurostat_news_industry_trade_services', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW'),
+(18, 'UE', 'eurostat', 'NEWS', 'eurostat_news_international_trade', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW'),
+(19, 'UE', 'eurostat', 'NEWS', 'eurostat_news_science_technology', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&_estatsearchportlet_WAR_estatsearchportlet_collection=CAT_EURNEW');
+
+-- EUROSTAT DATASETS
+INSERT INTO content_metadata (id, region, source, content_type, content_name, url) VALUES
+(20, 'UE', 'eurostat', 'DATASETS', 'datasets_economy_finance', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_ECOFIN&_estatsearchportlet_WAR_estatsearchportlet_collection=dataset'),
+(21, 'UE', 'eurostat', 'DATASETS', 'datasets_industry_trade_services', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_INDCOM&_estatsearchportlet_WAR_estatsearchportlet_collection=dataset'),
+(22, 'UE', 'eurostat', 'DATASETS', 'datasets_international_trade', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&_estatsearchportlet_WAR_estatsearchportlet_collection=dataset'),
+(23, 'UE', 'eurostat', 'DATASETS', 'datasets_science_technology', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&_estatsearchportlet_WAR_estatsearchportlet_collection=dataset');
 
 
 -- Create tables for each data source
@@ -55,7 +74,7 @@ CREATE TABLE eurostat (
     content TEXT
 );
 
-CREATE TABLE federalreserve (
+CREATE TABLE federal_reserve (
     id SERIAL PRIMARY KEY,
     title TEXT NOT NULL,
     link TEXT,

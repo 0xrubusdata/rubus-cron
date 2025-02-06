@@ -3,6 +3,7 @@ import { FetcherFactory } from '../data-fetchers/fetcherFactory';
 import { PersistDataService } from '../services/persistData.service';
 import { EuroparlTransformer } from '../transformers/europarlTransformer';
 import { ContentMetadataService } from '../services/contentMetadata.service';
+import { EurostatTransformer } from '../transformers/eurostatTransformer';
 
 @Injectable()
 export class DataIngestionService {
@@ -31,6 +32,9 @@ export class DataIngestionService {
       case 'europarl':
         transformer = new EuroparlTransformer();
         break;
+      case 'eurostat':
+        transformer = new EurostatTransformer();
+        break;  
       default:
         throw new Error(`🚨 No transformer found for source: ${source}`);
     }

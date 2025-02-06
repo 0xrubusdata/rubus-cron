@@ -17,6 +17,6 @@ export class ContentMetadata {
   @Column({ type: 'text' })
   content_name: string; // Nom détaillé du contenu
 
-  @Column({ type: 'varchar', length: 255 })
+  @Column({ type: 'varchar', length: 510 })
   url: string; // URL du flux RSS ou API
 }

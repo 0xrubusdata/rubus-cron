@@ -1,6 +1,7 @@
 import { EuroparlFetcher } from './europarlFetcher';
 import { IFetcher } from './IFetcher';
 import { ContentMetadataService } from '../services/contentMetadata.service';
+import { EurostatFetcher } from './eurostatFetcher';
 
 export class FetcherFactory {
   static createFetcher(source: string, metadataService: ContentMetadataService): IFetcher {
@@ -8,7 +9,7 @@ export class FetcherFactory {
       case 'europarl':
         return new EuroparlFetcher(metadataService);
       case 'eurostat':
-        //return new EurostatFetcher(metadataService);
+        return new EurostatFetcher(metadataService);
       case 'federalreserve':
         //return new FederalReserveFetcher(metadataService);
       case 'usbea':
