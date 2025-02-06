@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common';
-import { MetadataRepository } from '../repository/metadataRepository';
+import { ContentMetadataRepository } from '../repository/contentMetadata.repository';
 import { ContentMetadata } from '../entities/contentMetadata.entity';
 
 @Injectable()
 export class ContentMetadataService {
-  constructor(private readonly metadataRepository: MetadataRepository) {}
+  constructor(private readonly metadataRepository: ContentMetadataRepository) {}
 
   async getMetadataForSource(source: string): Promise<ContentMetadata[]> {
-    return this.metadataRepository.getBySource(source);
+    return this.metadataRepository.getMetadataForSource(source);
   }
 }

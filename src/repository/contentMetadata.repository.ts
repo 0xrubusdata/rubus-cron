@@ -4,13 +4,13 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { ContentMetadata } from '../entities/contentMetadata.entity';
 
 @Injectable()
-export class MetadataRepository {
+export class ContentMetadataRepository {
   constructor(
     @InjectRepository(ContentMetadata)
     private readonly repository: Repository<ContentMetadata>,
   ) {}
 
-  async getBySource(source: string): Promise<ContentMetadata[]> {
-    return this.repository.find({ where: { source } });
+  async getMetadataForSource(source: string): Promise<ContentMetadata[]> {
+    return await this.repository.find({ where: { source } });
   }
 }

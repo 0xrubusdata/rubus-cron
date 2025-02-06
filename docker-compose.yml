@@ -5,6 +5,8 @@ services:
     depends_on:
       - db
     env_file: .env
+    environment:
+      IN_DOCKER: "true"
     ports:
       - "3000:3000"
     volumes:

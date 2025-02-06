@@ -1,25 +1,33 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { PostgresService } from './postgres.service';
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { ContentMetadata } from '../entities/contentMetadata.entity';
 import { Europarl } from '../entities/europarl.entity';
 import { UsBea } from '../entities/usBea.entity';
 import { FederalReserve } from '../entities/federalreserve.entity';
 import { Eurostat } from '../entities/eurostat.entity';
-import { ContentMetadata } from '../entities/contentMetadata.entity';
+import { PostgresService } from './postgres.service';
 
 @Module({
   imports: [
-    TypeOrmModule.forRoot({
-      type: 'postgres',
-      host: process.env.POSTGRES_HOST || 'localhost',
-      port: Number(process.env.POSTGRES_PORT) || 5432,
-      username: process.env.POSTGRES_USER || 'postgres',
-      password: process.env.POSTGRES_PASSWORD || 'password',
-      database: process.env.POSTGRES_DB || 'rubus',
-      autoLoadEntities: true,
-      synchronize: true,
+    ConfigModule, // 🔹 Assure que `.env` est bien chargé
+
+    TypeOrmModule.forRootAsync({
+      imports: [ConfigModule],
+      inject: [ConfigService],
+      useFactory: (configService: ConfigService) => ({
+        type: 'postgres',
+        host: configService.get<string>('database.host'),
+        port: configService.get<number>('database.port'),
+        username: configService.get<string>('database.username'),
+        password: configService.get<string>('database.password'),
+        database: configService.get<string>('database.database'),
+        autoLoadEntities: true,
+        synchronize: process.env.ENV !== 'Production', // Désactive en prod
+      }),
     }),
-    TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, UsBea]), // Intégration des entités
+
+    TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, UsBea]),
   ],
   providers: [PostgresService],
   exports: [PostgresService, TypeOrmModule],
