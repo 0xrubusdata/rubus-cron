@@ -6,19 +6,29 @@ import { ContentMetadataService } from '../services/contentMetadata.service';
 import { EurostatTransformer } from '../transformers/eurostatTransformer';
 import { FederalReserveTransformer } from '../transformers/federalReserveTransformer';
 import { FederalReserveLinksTransformer } from '../transformers/federalReserveLinksTransformer';
+import { FederalReserveDocumentsRepository } from '../repository/federalReserveDocuments.repository';
+import { FederalReserveLinksRepository } from '../repository/federalReserveLinks.repository';
 
 @Injectable()
 export class DataIngestionService {
   constructor(
     private readonly persistDataService: PersistDataService,
     private readonly metadataService: ContentMetadataService,
+    private readonly linksRepository: FederalReserveLinksRepository,
+    private readonly documentsRepository: FederalReserveDocumentsRepository
   ) {}
 
   async ingestData(source: string): Promise<void> {
     console.log(`🔹 Fetching data for source: ${source}...`);
 
     // 📌 Création dynamique du Fetcher
-    const fetcher = FetcherFactory.createFetcher(source, this.metadataService);
+    const fetcher = FetcherFactory.createFetcher(
+      source,
+      this.metadataService,
+      this.linksRepository,
+      this.documentsRepository
+    );
+    
     const rawData = await fetcher.fetchData();
 
     if (!rawData.length) {

@@ -13,4 +13,8 @@ export class FederalReserveRepository {
   async save(data: FederalReserve[]): Promise<FederalReserve[]> {
     return await this.repository.save(data);
   }
+
+  async updateContent(id: number, content: string): Promise<void> {
+    await this.repository.update(id, { content });
+  }
 }

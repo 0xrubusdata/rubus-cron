@@ -2,6 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { EuroparlService } from './europarl.service';
 import { EurostatService } from './eurostat.service';
 import { FederalReserveService } from './federalReserve.service';
+import { FederalReserveLinksService } from './federalReserveLinks.service';
 import { UsBeaService } from './usBea.service';
 
 @Injectable()
@@ -10,6 +11,7 @@ export class PersistDataService {
     private readonly europarlService: EuroparlService,
     private readonly eurostatService: EurostatService,
     private readonly federalReserveService: FederalReserveService,
+    private readonly federalReserveLinksService: FederalReserveLinksService, 
     private readonly usBeaService: UsBeaService,
   ) {}
 
@@ -23,6 +25,9 @@ export class PersistDataService {
         break;
       case 'federalreserve':
         await this.federalReserveService.saveData(data.toPersist, data.toLink);
+        break;
+      case 'federalreservelinks':  
+        await this.federalReserveLinksService.saveData(data.toPersist, data.toDocuments);
         break;
       case 'usbea':
         await this.usBeaService.saveData(data);

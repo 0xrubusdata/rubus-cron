@@ -6,10 +6,11 @@ import { EuroparlService } from './europarl.service';
 import { EurostatService } from './eurostat.service';
 import { FederalReserveService } from './federalReserve.service';
 import { UsBeaService } from './usBea.service';
+import { FederalReserveLinksService } from './federalReserveLinks.service';
 
 @Module({
   imports: [RepositoriesModule],
-  providers: [PersistDataService, ContentMetadataService, EuroparlService, EurostatService, FederalReserveService, UsBeaService],
-  exports: [PersistDataService, ContentMetadataService, EuroparlService, EurostatService, FederalReserveService, UsBeaService],
+  providers: [PersistDataService, ContentMetadataService, EuroparlService, EurostatService, FederalReserveService, FederalReserveLinksService, UsBeaService],
+  exports: [PersistDataService, ContentMetadataService, EuroparlService, EurostatService, FederalReserveService, FederalReserveLinksService, UsBeaService],
 })
 export class ServicesModule {}
