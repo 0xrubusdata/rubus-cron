@@ -5,6 +5,7 @@ import { EuroparlTransformer } from '../transformers/europarlTransformer';
 import { ContentMetadataService } from '../services/contentMetadata.service';
 import { EurostatTransformer } from '../transformers/eurostatTransformer';
 import { FederalReserveTransformer } from '../transformers/federalReserveTransformer';
+import { FederalReserveLinksTransformer } from '../transformers/federalReserveLinksTransformer';
 
 @Injectable()
 export class DataIngestionService {
@@ -39,6 +40,9 @@ export class DataIngestionService {
       case 'federalreserve':
         transformer = new FederalReserveTransformer();
         break;    
+      case 'federalreservelinks':
+        transformer = new FederalReserveLinksTransformer();
+        break;      
       default:
         throw new Error(`🚨 No transformer found for source: ${source}`);
     }

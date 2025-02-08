@@ -12,8 +12,7 @@ export class FederalReserveLinks {
   @Column({ default: false })
   processed: boolean;
 
-  // 🔹 Relation OneToOne avec une FK explicite vers FederalReserve
   @OneToOne(() => FederalReserve, { onDelete: 'CASCADE' })
-  @JoinColumn({ name: 'federalReserveId' }) // 📌 Crée la FK en BDD !
+  @JoinColumn({ name: 'federalReserveId' })
   federalReserve: FederalReserve;
 }

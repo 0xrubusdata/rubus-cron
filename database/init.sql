@@ -104,9 +104,16 @@ CREATE TABLE us_bea (
 
 CREATE TABLE federal_reserve_links (
     id SERIAL PRIMARY KEY,
-    federal_reserve_id INT REFERENCES federal_reserve(id) ON DELETE CASCADE,
+    federal_reserve_id INT NOT NULL REFERENCES federal_reserve(id) ON DELETE CASCADE,
     url TEXT NOT NULL,
     processed BOOLEAN DEFAULT FALSE
+);
+
+CREATE TABLE federal_reserve_documents (
+    id SERIAL PRIMARY KEY,
+    url TEXT NOT NULL,
+    processed BOOLEAN DEFAULT FALSE,
+    federal_reserve_link_id INT NOT NULL REFERENCES federal_reserve_links(id) ON DELETE CASCADE
 );
 
 
