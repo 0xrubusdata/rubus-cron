@@ -13,7 +13,7 @@ export class PersistDataService {
     private readonly usBeaService: UsBeaService,
   ) {}
 
-  async persist(source: string, data: any[]) {
+  async persist(source: string, data: any) {
     switch (source) {
       case 'europarl':
         await this.europarlService.saveData(data);
@@ -22,7 +22,7 @@ export class PersistDataService {
         await this.eurostatService.saveData(data);
         break;
       case 'federalreserve':
-        await this.federalReserveService.saveData(data);
+        await this.federalReserveService.saveData(data.toPersist, data.toLink);
         break;
       case 'usbea':
         await this.usBeaService.saveData(data);

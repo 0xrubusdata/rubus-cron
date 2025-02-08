@@ -4,6 +4,8 @@ DROP TABLE IF EXISTS europarl CASCADE;
 DROP TABLE IF EXISTS eurostat CASCADE;
 DROP TABLE IF EXISTS federal_reserve CASCADE;
 DROP TABLE IF EXISTS us_bea CASCADE;
+-- TEMPORARY TABLE FOR INTERMEDIATE LINKS
+DROP TABLE IF EXISTS federal_reserve_links CASCADE;
 
 
 CREATE TABLE content_metadata (
@@ -56,6 +58,16 @@ INSERT INTO content_metadata (id, region, source, content_type, content_name, ur
 (22, 'UE', 'eurostat', 'DATASETS', 'datasets_international_trade', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_EXTTRA&_estatsearchportlet_WAR_estatsearchportlet_collection=dataset'),
 (23, 'UE', 'eurostat', 'DATASETS', 'datasets_science_technology', 'https://ec.europa.eu/eurostat/en/search?p_p_id=estatsearchportlet_WAR_estatsearchportlet&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_resource_id=atom&_estatsearchportlet_WAR_estatsearchportlet_theme=PER_RESDEV&_estatsearchportlet_WAR_estatsearchportlet_collection=dataset');
 
+-- FEDERAL RESERVE NEWS
+INSERT INTO content_metadata (id, region, source, content_type, content_name, url) VALUES
+(24, 'USA', 'federalreserve', 'NEWS', 'news_press_all', 'https://www.federalreserve.gov/feeds/press_all.xml'),
+(25, 'USA', 'federalreserve', 'NEWS', 'news_press_monetary', 'https://www.federalreserve.gov/feeds/press_monetary.xml');
+
+-- FEDERAL RESERVE SPEECHES & TESTIMONY
+INSERT INTO content_metadata (id, region, source, content_type, content_name, url) VALUES
+(26, 'USA', 'federalreserve', 'SPEECHES_TESTIMONY', 'speeches_and_testimony', 'https://www.federalreserve.gov/feeds/speeches_and_testimony.xml'),
+(27, 'USA', 'federalreserve', 'SPEECHES_TESTIMONY', 'speeches_testimony_feds', 'https://www.federalreserve.gov/feeds/feds.xml');
+
 
 -- Create tables for each data source
 CREATE TABLE europarl (
@@ -89,6 +101,14 @@ CREATE TABLE us_bea (
     published_at TIMESTAMP DEFAULT NOW(),
     content TEXT
 );
+
+CREATE TABLE federal_reserve_links (
+    id SERIAL PRIMARY KEY,
+    federal_reserve_id INT REFERENCES federal_reserve(id) ON DELETE CASCADE,
+    url TEXT NOT NULL,
+    processed BOOLEAN DEFAULT FALSE
+);
+
 
 
 

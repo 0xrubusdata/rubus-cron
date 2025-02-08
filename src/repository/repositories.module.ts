@@ -8,12 +8,14 @@ import { EurostatRepository } from './eurostat.repository';
 import { FederalReserveRepository } from './federalReserve.repository';
 import { UsBeaRepository } from './usBea.repository';
 import { Eurostat } from '../entities/eurostat.entity';
-import { FederalReserve } from '../entities/federalreserve.entity';
+import { FederalReserve } from '../entities/federalReserve.entity';
 import { UsBea } from '../entities/usBea.entity';
+import { FederalReserveLinksRepository } from './federalReserveLinks.repository';
+import { FederalReserveLinks } from '../entities/federalReserveLinks.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, UsBea])],
-  providers: [ContentMetadataRepository, EuroparlRepository, EurostatRepository, FederalReserveRepository, UsBeaRepository],
-  exports: [ContentMetadataRepository, EuroparlRepository, EurostatRepository, FederalReserveRepository, UsBeaRepository],
+  imports: [TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, FederalReserveLinks, UsBea])],
+  providers: [ContentMetadataRepository, EuroparlRepository, EurostatRepository, FederalReserveRepository, FederalReserveLinksRepository, UsBeaRepository],
+  exports: [ContentMetadataRepository, EuroparlRepository, EurostatRepository, FederalReserveRepository, FederalReserveLinksRepository, UsBeaRepository],
 })
 export class RepositoriesModule {}

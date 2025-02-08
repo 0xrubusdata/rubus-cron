@@ -4,9 +4,10 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
 import { ContentMetadata } from '../entities/contentMetadata.entity';
 import { Europarl } from '../entities/europarl.entity';
 import { UsBea } from '../entities/usBea.entity';
-import { FederalReserve } from '../entities/federalreserve.entity';
+import { FederalReserve } from '../entities/federalReserve.entity';
 import { Eurostat } from '../entities/eurostat.entity';
 import { PostgresService } from './postgres.service';
+import { FederalReserveLinks } from '../entities/federalReserveLinks.entity';
 
 @Module({
   imports: [
@@ -27,7 +28,7 @@ import { PostgresService } from './postgres.service';
       }),
     }),
 
-    TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, UsBea]),
+    TypeOrmModule.forFeature([ContentMetadata, Europarl, Eurostat, FederalReserve, FederalReserveLinks, UsBea]),
   ],
   providers: [PostgresService],
   exports: [PostgresService, TypeOrmModule],

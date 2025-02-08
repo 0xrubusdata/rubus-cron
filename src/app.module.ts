@@ -7,6 +7,8 @@ import { ContentMetadataRepository } from './repository/contentMetadata.reposito
 import { DataIngestionService } from './ingestion/dataIngestion.service';
 import { RepositoriesModule } from './repository/repositories.module';
 import { ServicesModule } from './services/services.module';
+import { ScheduleModule } from '@nestjs/schedule';
+import { SchedulerService } from './cron/scheduler.service';
 
 @Module({
   imports: [
@@ -16,21 +18,24 @@ import { ServicesModule } from './services/services.module';
     }),
     DatabaseModule,
     RepositoriesModule,
-    ServicesModule
+    ServicesModule,
+    ScheduleModule.forRoot()
   ],
   providers: [
     ContentMetadataService,
     ContentMetadataRepository,
     DataIngestionService,  // 🔹 Ajouter DataIngestionService
     ServicesModule,
-    RepositoriesModule
+    RepositoriesModule,
+    SchedulerService
   ],
   exports: [
     ContentMetadataService, 
     ContentMetadataRepository,
     DataIngestionService,   // 🔹 Exporter pour qu'il soit accessible dans le test
     ServicesModule,
-    RepositoriesModule
+    RepositoriesModule,
+    SchedulerService
   ],
 })
 export class AppModule {}
