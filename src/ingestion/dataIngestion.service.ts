@@ -8,6 +8,7 @@ import { FederalReserveTransformer } from '../transformers/federalReserveTransfo
 import { FederalReserveLinksTransformer } from '../transformers/federalReserveLinksTransformer';
 import { FederalReserveDocumentsRepository } from '../repository/federalReserveDocuments.repository';
 import { FederalReserveLinksRepository } from '../repository/federalReserveLinks.repository';
+import { FederalReserveDocumentsTransformer } from '../transformers/federalReserveDocumentsTransformer';
 
 @Injectable()
 export class DataIngestionService {
@@ -52,6 +53,9 @@ export class DataIngestionService {
         break;    
       case 'federalreservelinks':
         transformer = new FederalReserveLinksTransformer();
+        break;      
+      case 'federalreservedocuments':
+        transformer = new FederalReserveDocumentsTransformer();
         break;      
       default:
         throw new Error(`🚨 No transformer found for source: ${source}`);

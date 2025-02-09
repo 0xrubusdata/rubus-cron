@@ -27,5 +27,18 @@ export class FederalReserveLinksRepository {
   async updateProcessedStatus(linkIds: number[]) {
     await this.repository.update({ id: In(linkIds) }, { processed: true });
   }
+
+  async deleteOldUnprocessed(days: number): Promise<void> {
+    const thresholdDate = new Date();
+    thresholdDate.setDate(thresholdDate.getDate() - days);
+  
+    await this.repository
+      .createQueryBuilder()
+      .delete()
+      .where('processed = false')
+      .andWhere('createdAt < :thresholdDate', { thresholdDate })
+      .execute();
+  }
+  
 }
 

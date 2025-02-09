@@ -4,6 +4,7 @@ import { EurostatService } from './eurostat.service';
 import { FederalReserveService } from './federalReserve.service';
 import { FederalReserveLinksService } from './federalReserveLinks.service';
 import { UsBeaService } from './usBea.service';
+import { FederalReserveDocumentsService } from './federalReserveDocuments.service';
 
 @Injectable()
 export class PersistDataService {
@@ -12,6 +13,7 @@ export class PersistDataService {
     private readonly eurostatService: EurostatService,
     private readonly federalReserveService: FederalReserveService,
     private readonly federalReserveLinksService: FederalReserveLinksService, 
+    private readonly federalReserveDocumentsService: FederalReserveDocumentsService,
     private readonly usBeaService: UsBeaService,
   ) {}
 
@@ -29,6 +31,9 @@ export class PersistDataService {
       case 'federalreservelinks':  
         await this.federalReserveLinksService.saveData(data.toPersist, data.toDocuments);
         break;
+      case 'federalreservedocuments':  
+        await this.federalReserveDocumentsService.saveData(data.toPersist, data.toProcessed);
+        break;  
       case 'usbea':
         await this.usBeaService.saveData(data);
         break;

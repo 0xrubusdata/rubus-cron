@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Repository } from 'typeorm';
+import { In, Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FederalReserveDocuments } from '../entities/federalReserveDocuments.entity';
 
@@ -17,7 +17,27 @@ export class FederalReserveDocumentsRepository {
 
   // Si jamais on veut récupérer tous les liens (utile pour la prochaine étape)
   async findAllUnprocessed(): Promise<FederalReserveDocuments[]> {
-    return this.repository.find({ where: { processed: false } });
+    return await this.repository.find({
+      where: { processed: false },
+      relations: ['federalReserveLinks'],  // ✅ Charge explicitement la relation
+    });
   }
+    
+  async updateProcessedStatus(linkIds: number[]) {
+    await this.repository.update({ federalReserveLinks: In(linkIds) }, { processed: true });
+  }
+
+  async deleteOldUnprocessed(days: number): Promise<void> {
+    const thresholdDate = new Date();
+    thresholdDate.setDate(thresholdDate.getDate() - days);
+  
+    await this.repository
+      .createQueryBuilder()
+      .delete()
+      .where('processed = false')
+      .andWhere('createdAt < :thresholdDate', { thresholdDate })
+      .execute();
+  }
+  
 }
 

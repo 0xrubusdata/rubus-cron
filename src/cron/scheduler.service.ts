@@ -1,10 +1,14 @@
 import { Injectable } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
 import { DataIngestionService } from '../ingestion/dataIngestion.service';
+import { CleanJobService } from '../services/cleanJob.service';
 
 @Injectable()
 export class SchedulerService {
-  constructor(private readonly ingestionService: DataIngestionService) {}
+  constructor(
+    private readonly ingestionService: DataIngestionService,
+    private readonly cleanJobService: CleanJobService
+  ) {}
 
   @Cron('0 1 * * *') // 🕐 01:00 AM - Europarl
   async handleEuroparlCron() {
@@ -30,14 +34,23 @@ export class SchedulerService {
   @Cron('0 4 * * *') // 🕓 04:00 AM - Parsing des liens Fed
   async handleFederalReserveLinksCron() {
     console.log('⏰ Running Federal Reserve Links Processing...');
-    await this.ingestionService.ingestData('federalreservelink');
+    await this.ingestionService.ingestData('federalreservelinks');
     console.log('✅ Federal Reserve Links Processing Complete!');
   }
 
   @Cron('0 5 * * *') // 🕔 05:00 AM - Parsing des documents Fed
   async handleFederalReserveDocumentsCron() {
     console.log('⏰ Running Federal Reserve Documents Processing...');
-    await this.ingestionService.ingestData('federalreservedocument');
+    await this.ingestionService.ingestData('federalreservedocuments');
     console.log('✅ Federal Reserve Documents Processing Complete!');
   }
+
+
+  @Cron('0 6 * * *') // 🕕 06:00 AM chaque jour
+  async handleCleanJob() {
+    console.log('🧹 Running Scheduled Clean Job...');
+    await this.cleanJobService.cleanOldEntries();
+    console.log('✅ Scheduled Clean Job Complete!');
+  }
+
 }

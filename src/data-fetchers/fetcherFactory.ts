@@ -7,6 +7,7 @@ import { FederalReserveLinksFetcher } from './federalReserveLinksFetcher';
 import { FederalReserveLinksRepository } from '../repository/federalReserveLinks.repository';
 
 import { FederalReserveDocumentsRepository } from '../repository/federalReserveDocuments.repository';
+import { FederalReserveDocumentsFetcher } from './federalReserveDocumentsFetcher';
 
 export class FetcherFactory {
   static createFetcher(
@@ -24,6 +25,8 @@ export class FetcherFactory {
         return new FederalReserveFetcher(metadataService!);
       case 'federalreservelinks':
         return new FederalReserveLinksFetcher(linksRepository!);
+      case 'federalreservedocuments':
+          return new FederalReserveDocumentsFetcher(documentsRepository!);
       default:
         throw new Error(`Unknown data source: ${source}`);
     }

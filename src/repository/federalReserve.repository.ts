@@ -17,4 +17,10 @@ export class FederalReserveRepository {
   async updateContent(id: number, content: string): Promise<void> {
     await this.repository.update(id, { content });
   }
+
+  async findOneById(id: number): Promise<FederalReserve | null> {
+    return await this.repository.findOneBy({
+      id: 1,
+    })
+  }
 }
