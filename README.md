@@ -124,6 +124,6 @@ This project is licensed under the MIT License.
 
 ## 🌐 Connect with Us
 - **Twitter (X)**: [0xRubusData](https://x.com/Data0x88850)
-- **Website**: [RubusData](https://simple-agent-website.vercel.app/)
+- **Website**: [RubusLab](https://rubus-lab.vercel.app/)
 
 ## 🎯 **Happy Coding!** 🚀
