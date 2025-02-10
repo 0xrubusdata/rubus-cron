@@ -1,4 +1,7 @@
-# 🌿 Rubus-Cron
+# ![Rubus-Cron](./public/agents/Rubus-Cron.png)
+
+
+## 🌿 Welcome to **Rubus-Cron**
 
 **Rubus-Cron** is a Node.js microservice built with **NestJS** that periodically fetches economic and IT-related data from multiple sources (EU Parliament, Eurostat, Federal Reserve, US-BEA) and stores them in a PostgreSQL database.
 
